@@ -1,22 +1,11 @@
 # Network Security Tools - UniMI Project
 
-Progetto didattico per il corso di Sicurezza delle Reti - Università degli Studi di Milano.
-
 ## Descrizione
 
 Questa repository contiene due strumenti Python per l'analisi e il testing della sicurezza di rete:
 
 1. **ARP Spoofing Tool** (`ARP_spoof.py`) - Strumento per eseguire attacchi Man-in-the-Middle mediante ARP spoofing
 2. **Packet Sniffer** (`packet_sniffer.py`) - Sniffer di pacchetti HTTP per intercettare richieste e credenziali
-
-## ⚠️ Disclaimer Legale
-
-**ATTENZIONE**: Questi strumenti sono stati sviluppati esclusivamente per scopi educativi e di ricerca nell'ambito del corso di Sicurezza delle Reti.
-
-- L'utilizzo di questi strumenti su reti o sistemi senza autorizzazione esplicita è **ILLEGALE**
-- Utilizzare solo in ambienti di test controllati o su reti di cui si ha piena autorizzazione
-- Gli autori non si assumono alcuna responsabilità per usi impropri o illegali di questi strumenti
-- Rispettare sempre le leggi locali e nazionali sulla sicurezza informatica
 
 ## Requisiti
 
@@ -110,15 +99,3 @@ L'ARP spoofing sfrutta la mancanza di autenticazione nel protocollo ARP, inviand
 
 ### HTTP Sniffing
 Il packet sniffer funziona solo con traffico HTTP non cifrato. Il traffico HTTPS non può essere intercettato senza ulteriori attacchi (es. SSL stripping).
-
-## Autore
-
-Progetto realizzato per il corso di Sicurezza delle Reti - Università degli Studi di Milano
-
-## Licenza
-
-Questo progetto è distribuito solo per scopi educativi. Consultare il file LICENSE per maggiori dettagli.
-
-## Contributi
-
-Questo è un progetto didattico. Per suggerimenti o correzioni, aprire una issue.
